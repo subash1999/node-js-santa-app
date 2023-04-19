@@ -1,3 +1,25 @@
+# Tasks Completed
+0. Application works as expected sends a letter to the designated address every 15 seconds if there are any new entry
+> (I have included the environment in the github also as it is just a fake mailing credentials)
+
+1. Validation of username and message and user age is done and appropiate messages is shown
+  - that the child is registered 
+  - that the child is less than 10 years old.)
+
+2. Logging is configured for both dev and prod environment
+
+3. Code seperation and appropiate folder structure are made
+
+4. Mongoose is used for the DB and the data is populated from the given json urls to the mongoose on development environment
+
+5. Unit testing and api testing is done and is on tests folder
+
+6. morgan middleware is created to log the incomming http requests
+
+7. A little change in Front end code to dispaly error and success messages, also Front end validation is done for message more than 100 characters
+
+> Below is the readme of challenge
+
 # IMPORTANT! READ before starting
 By default for anonymous users (non logged in), your code and app will only remain on glitch.com for 5 days.
 In order to not lose your challenge, please create a glitch.com account and log in to glitch.com before proceeding.
